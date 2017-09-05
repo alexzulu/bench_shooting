@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 1N4007
+D 1000V, 1A diode
+K diode
+$ENDCMP
+#
+#End Doc Library

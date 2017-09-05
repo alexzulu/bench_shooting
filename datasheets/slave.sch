@@ -1,0 +1,530 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:user_transistors
+LIBS:user_diodes
+LIBS:arduino
+LIBS:nrf
+LIBS:slave-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Label 10150 3300 0    60   ~ 0
+P_GND
+Wire Wire Line
+	10150 3300 10250 3300
+Wire Wire Line
+	10150 3250 10150 3300
+Wire Wire Line
+	10150 2850 10150 2950
+$Comp
+L 1N4007 D1
+U 1 1 59ABA7A9
+P 10150 3100
+F 0 "D1" H 10150 3200 50  0000 C CNN
+F 1 "1N4007" H 10150 3000 50  0000 C CNN
+F 2 "user_diodes:D_DO-41_SOD81_P12.70mm_Horizontal" H 10150 3100 50  0001 C CNN
+F 3 "" H 10150 3100 50  0000 C CNN
+	1    10150 3100
+	0    1    1    0   
+$EndComp
+Text Label 9400 2850 0    60   ~ 0
+P_GND
+Wire Wire Line
+	9400 2850 9500 2850
+NoConn ~ 10250 2450
+Wire Wire Line
+	10150 2250 10150 2450
+Wire Wire Line
+	9800 2650 9850 2650
+$Comp
+L IRFU9024N Q1
+U 1 1 59ABA5E2
+P 10050 2650
+F 0 "Q1" H 10250 2700 50  0000 L CNN
+F 1 "IRFU9024N" H 10250 2600 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-251AA" H 10250 2750 50  0001 C CNN
+F 3 "" H 10050 2650 50  0000 C CNN
+	1    10050 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9450 2250 10150 2250
+Wire Wire Line
+	9450 2100 9450 2300
+Connection ~ 9450 2650
+Wire Wire Line
+	9450 2600 9450 2650
+Wire Wire Line
+	9400 2650 9500 2650
+Wire Wire Line
+	8750 2650 8800 2650
+$Comp
+L R R1
+U 1 1 59AB9BDC
+P 8600 2650
+F 0 "R1" V 8680 2650 50  0000 C CNN
+F 1 "R" V 8600 2650 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 8530 2650 50  0001 C CNN
+F 3 "" H 8600 2650 50  0000 C CNN
+	1    8600 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L R R2
+U 1 1 59AB9AFB
+P 9450 2450
+F 0 "R2" V 9530 2450 50  0000 C CNN
+F 1 "R" V 9450 2450 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 9380 2450 50  0001 C CNN
+F 3 "" H 9450 2450 50  0000 C CNN
+	1    9450 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R3
+U 1 1 59AB9A32
+P 9650 2650
+F 0 "R3" V 9730 2650 50  0000 C CNN
+F 1 "R" V 9650 2650 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 9580 2650 50  0001 C CNN
+F 3 "" H 9650 2650 50  0000 C CNN
+	1    9650 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L PC817 U1
+U 1 1 59AB8A71
+P 9100 2750
+F 0 "U1" H 8900 2950 50  0000 L CNN
+F 1 "PC817" H 9100 2950 50  0000 L CNN
+F 2 "Housings_DIP:DIP-4_W7.62mm" H 8900 2550 50  0000 L CIN
+F 3 "" H 9100 2750 50  0000 L CNN
+	1    9100 2750
+	1    0    0    -1  
+$EndComp
+Text Label 10150 4400 0    60   ~ 0
+P_GND
+Wire Wire Line
+	10150 4400 10250 4400
+Wire Wire Line
+	10150 4350 10150 4400
+Wire Wire Line
+	10150 3950 10150 4050
+$Comp
+L 1N4007 D2
+U 1 1 59ADD6A4
+P 10150 4200
+F 0 "D2" H 10150 4300 50  0000 C CNN
+F 1 "1N4007" H 10150 4100 50  0000 C CNN
+F 2 "user_diodes:D_DO-41_SOD81_P12.70mm_Horizontal" H 10150 4200 50  0001 C CNN
+F 3 "" H 10150 4200 50  0000 C CNN
+	1    10150 4200
+	0    1    1    0   
+$EndComp
+Text Label 9400 3950 0    60   ~ 0
+P_GND
+Wire Wire Line
+	9400 3950 9500 3950
+NoConn ~ 10250 3550
+Wire Wire Line
+	10150 3350 10150 3550
+Wire Wire Line
+	9800 3750 9850 3750
+$Comp
+L IRFU9024N Q2
+U 1 1 59ADD6AF
+P 10050 3750
+F 0 "Q2" H 10250 3800 50  0000 L CNN
+F 1 "IRFU9024N" H 10250 3700 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-251AA" H 10250 3850 50  0001 C CNN
+F 3 "" H 10050 3750 50  0000 C CNN
+	1    10050 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9450 3350 10150 3350
+Wire Wire Line
+	9450 3200 9450 3400
+Connection ~ 9450 3750
+Wire Wire Line
+	9450 3700 9450 3750
+Wire Wire Line
+	9400 3750 9500 3750
+Wire Wire Line
+	8750 3750 8800 3750
+$Comp
+L R R4
+U 1 1 59ADD6BB
+P 8600 3750
+F 0 "R4" V 8680 3750 50  0000 C CNN
+F 1 "R" V 8600 3750 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 8530 3750 50  0001 C CNN
+F 3 "" H 8600 3750 50  0000 C CNN
+	1    8600 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L R R6
+U 1 1 59ADD6C1
+P 9450 3550
+F 0 "R6" V 9530 3550 50  0000 C CNN
+F 1 "R" V 9450 3550 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 9380 3550 50  0001 C CNN
+F 3 "" H 9450 3550 50  0000 C CNN
+	1    9450 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R8
+U 1 1 59ADD6C7
+P 9650 3750
+F 0 "R8" V 9730 3750 50  0000 C CNN
+F 1 "R" V 9650 3750 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 9580 3750 50  0001 C CNN
+F 3 "" H 9650 3750 50  0000 C CNN
+	1    9650 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L PC817 U2
+U 1 1 59ADD6CD
+P 9100 3850
+F 0 "U2" H 8900 4050 50  0000 L CNN
+F 1 "PC817" H 9100 4050 50  0000 L CNN
+F 2 "Housings_DIP:DIP-4_W7.62mm" H 8900 3650 50  0000 L CIN
+F 3 "" H 9100 3850 50  0000 L CNN
+	1    9100 3850
+	1    0    0    -1  
+$EndComp
+Text Label 10150 5550 0    60   ~ 0
+P_GND
+Wire Wire Line
+	10150 5550 10250 5550
+Wire Wire Line
+	10150 5500 10150 5550
+Wire Wire Line
+	10150 5100 10150 5200
+$Comp
+L 1N4007 D3
+U 1 1 59ADDD2E
+P 10150 5350
+F 0 "D3" H 10150 5450 50  0000 C CNN
+F 1 "1N4007" H 10150 5250 50  0000 C CNN
+F 2 "user_diodes:D_DO-41_SOD81_P12.70mm_Horizontal" H 10150 5350 50  0001 C CNN
+F 3 "" H 10150 5350 50  0000 C CNN
+	1    10150 5350
+	0    1    1    0   
+$EndComp
+Text Label 9400 5100 0    60   ~ 0
+P_GND
+Wire Wire Line
+	9400 5100 9500 5100
+NoConn ~ 10250 4700
+Wire Wire Line
+	10150 4500 10150 4700
+Wire Wire Line
+	9800 4900 9850 4900
+$Comp
+L IRFU9024N Q3
+U 1 1 59ADDD39
+P 10050 4900
+F 0 "Q3" H 10250 4950 50  0000 L CNN
+F 1 "IRFU9024N" H 10250 4850 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-251AA" H 10250 5000 50  0001 C CNN
+F 3 "" H 10050 4900 50  0000 C CNN
+	1    10050 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9450 4500 10150 4500
+Wire Wire Line
+	9450 4350 9450 4550
+Connection ~ 9450 4900
+Wire Wire Line
+	9450 4850 9450 4900
+Wire Wire Line
+	9400 4900 9500 4900
+Wire Wire Line
+	8750 4900 8800 4900
+$Comp
+L R R5
+U 1 1 59ADDD45
+P 8600 4900
+F 0 "R5" V 8680 4900 50  0000 C CNN
+F 1 "R" V 8600 4900 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 8530 4900 50  0001 C CNN
+F 3 "" H 8600 4900 50  0000 C CNN
+	1    8600 4900
+	0    1    1    0   
+$EndComp
+$Comp
+L R R7
+U 1 1 59ADDD4B
+P 9450 4700
+F 0 "R7" V 9530 4700 50  0000 C CNN
+F 1 "R" V 9450 4700 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 9380 4700 50  0001 C CNN
+F 3 "" H 9450 4700 50  0000 C CNN
+	1    9450 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R9
+U 1 1 59ADDD51
+P 9650 4900
+F 0 "R9" V 9730 4900 50  0000 C CNN
+F 1 "R" V 9650 4900 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 9580 4900 50  0001 C CNN
+F 3 "" H 9650 4900 50  0000 C CNN
+	1    9650 4900
+	0    1    1    0   
+$EndComp
+$Comp
+L PC817 U3
+U 1 1 59ADDD57
+P 9100 5000
+F 0 "U3" H 8900 5200 50  0000 L CNN
+F 1 "PC817" H 9100 5200 50  0000 L CNN
+F 2 "Housings_DIP:DIP-4_W7.62mm" H 8900 4800 50  0000 L CIN
+F 3 "" H 9100 5000 50  0000 L CNN
+	1    9100 5000
+	1    0    0    -1  
+$EndComp
+Connection ~ 9450 3350
+Connection ~ 9450 2250
+Connection ~ 9450 4500
+Text Label 9450 4450 0    60   ~ 0
+P_VCC
+Text Label 9450 2200 0    60   ~ 0
+P_VCC
+Text Label 9450 3300 0    60   ~ 0
+P_VCC
+$Comp
+L Screw_Terminal_1x02 J1
+U 1 1 59ADE9CB
+P 9200 1300
+F 0 "J1" H 9200 1550 50  0000 C TNN
+F 1 "Screw_Terminal_1x02" V 9050 1300 50  0000 C TNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-2pol" H 9200 1075 50  0001 C CNN
+F 3 "" H 9175 1300 50  0001 C CNN
+	1    9200 1300
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9000 1200 8700 1200
+Wire Wire Line
+	9000 1400 8700 1400
+Text Label 8700 1200 0    60   ~ 0
+P_VCC
+Text Label 8700 1400 0    60   ~ 0
+P_GND
+$Comp
+L Screw_Terminal_1x03 J2
+U 1 1 59AE55A4
+P 10300 1400
+F 0 "J2" H 10300 1750 50  0000 C TNN
+F 1 "Screw_Terminal_1x03" V 10150 1400 50  0000 C TNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-3pol" H 10300 1075 50  0001 C CNN
+F 3 "" H 10275 1500 50  0001 C CNN
+	1    10300 1400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10100 1200 9700 1200
+Wire Wire Line
+	10100 1400 9700 1400
+Wire Wire Line
+	10100 1600 9700 1600
+Wire Wire Line
+	10150 2900 10550 2900
+Connection ~ 10150 2900
+Wire Wire Line
+	10150 4000 10550 4000
+Connection ~ 10150 4000
+Wire Wire Line
+	10150 5150 10550 5150
+Connection ~ 10150 5150
+Text Label 10250 5150 0    60   ~ 0
+OUT_3
+Text Label 10250 4000 0    60   ~ 0
+OUT_2
+Text Label 10250 2900 0    60   ~ 0
+OUT_1
+Text Label 9800 1200 0    60   ~ 0
+OUT_1
+Text Label 9800 1400 0    60   ~ 0
+OUT_2
+Text Label 9800 1600 0    60   ~ 0
+OUT_3
+$Comp
+L Arduino_Nano U5
+U 1 1 59AE7866
+P 6700 4400
+F 0 "U5" H 6700 5200 60  0000 C CNN
+F 1 "Arduino_Nano" H 6700 5300 60  0000 C CNN
+F 2 "" H 6700 5200 60  0001 C CNN
+F 3 "" H 6700 5200 60  0001 C CNN
+	1    6700 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 4300 5700 4300
+Wire Wire Line
+	6000 4400 5700 4400
+Wire Wire Line
+	6000 4500 5700 4500
+Wire Wire Line
+	8450 4900 8200 4900
+Wire Wire Line
+	8450 3750 8200 3750
+Wire Wire Line
+	8450 2650 8200 2650
+Text Label 5700 4300 0    60   ~ 0
+IN_1
+Text Label 5700 4400 0    60   ~ 0
+IN_2
+Text Label 5700 4500 0    60   ~ 0
+IN_3
+Text Label 8200 2650 0    60   ~ 0
+IN_1
+Text Label 8200 3750 0    60   ~ 0
+IN_2
+Text Label 8200 4900 0    60   ~ 0
+IN_3
+$Comp
+L nRF24L01 U4
+U 1 1 59AE991B
+P 6500 3100
+F 0 "U4" H 6500 3300 60  0000 C CNN
+F 1 "nRF24L01" H 6500 3400 60  0000 C CNN
+F 2 "" H 6500 4050 60  0001 C CNN
+F 3 "" H 6500 4050 60  0001 C CNN
+	1    6500 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 5100 5700 5100
+Wire Wire Line
+	6000 5000 5700 5000
+Wire Wire Line
+	6000 4900 5700 4900
+Wire Wire Line
+	6000 4800 5700 4800
+Wire Wire Line
+	6000 4100 5700 4100
+Wire Wire Line
+	7400 5100 7700 5100
+Wire Wire Line
+	6000 3300 5700 3300
+Wire Wire Line
+	7000 3300 7300 3300
+Wire Wire Line
+	7000 3200 7300 3200
+Wire Wire Line
+	7000 3100 7300 3100
+Text Label 5700 5000 0    60   ~ 0
+MISO
+Text Label 5700 5100 0    60   ~ 0
+MOSI
+Text Label 7700 5100 2    60   ~ 0
+SCK
+Text Label 5700 4100 0    60   ~ 0
+IRQ
+Text Label 5700 3300 0    60   ~ 0
+MISO
+Wire Wire Line
+	6000 3200 5700 3200
+Text Label 5700 3200 0    60   ~ 0
+SCK
+Text Label 7300 3300 2    60   ~ 0
+IRQ
+Text Label 7300 3200 2    60   ~ 0
+MOSI
+Text Label 5700 4900 0    60   ~ 0
+CE/SS
+Wire Wire Line
+	6000 3100 5700 3100
+Text Label 5700 3100 0    60   ~ 0
+CE/SS
+Text Label 7300 3100 2    60   ~ 0
+SCN/D9
+Text Label 5700 4800 0    60   ~ 0
+SCN/D9
+Wire Wire Line
+	7400 3800 7700 3800
+Text Label 7700 3800 2    60   ~ 0
+D_GND
+Wire Wire Line
+	8800 2850 8200 2850
+Wire Wire Line
+	8800 3950 8200 3950
+Wire Wire Line
+	8800 5100 8200 5100
+Text Label 8200 5100 0    60   ~ 0
+D_GND
+Text Label 8200 3950 0    60   ~ 0
+D_GND
+Text Label 8200 2850 0    60   ~ 0
+D_GND
+Wire Wire Line
+	6000 3000 5700 3000
+Text Label 5700 3000 0    60   ~ 0
+D_GND
+NoConn ~ 6000 3700
+NoConn ~ 6000 3800
+NoConn ~ 6000 3900
+NoConn ~ 6000 4200
+NoConn ~ 6000 4600
+NoConn ~ 6000 4700
+NoConn ~ 7400 5000
+NoConn ~ 7400 4900
+NoConn ~ 7400 4800
+NoConn ~ 7400 4700
+NoConn ~ 7400 4600
+NoConn ~ 7400 4500
+NoConn ~ 7400 4400
+NoConn ~ 7400 4300
+NoConn ~ 7400 4200
+NoConn ~ 7400 4100
+NoConn ~ 7400 4000
+NoConn ~ 7400 3900
+$EndSCHEMATC
