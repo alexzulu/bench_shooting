@@ -1,4 +1,4 @@
-update=Вт 05 сен 2017 13:54:06
+update=Сб 16 сен 2017 10:58:13
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=/home/alex/git/bench_shooting/datasheets/lib
+LibDir=/home/alex/kicad/library
 [eeschema/libraries]
 LibName1=slave-rescue
 LibName2=power
@@ -59,7 +59,7 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
-LibName31=lib/user_transistors
-LibName32=lib/user_diodes
-LibName33=/home/alex/kicad/library/arduino
-LibName34=/home/alex/kicad/library/nrf
+LibName31=arduino
+LibName32=nrf
+LibName33=user_transistors
+LibName34=user_diodes

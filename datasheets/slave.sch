@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:slave-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,12 +28,12 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:user_transistors
-LIBS:user_diodes
 LIBS:arduino
 LIBS:nrf
+LIBS:user_transistors
+LIBS:user_diodes
 LIBS:slave-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -54,15 +53,13 @@ Wire Wire Line
 	10150 3300 10250 3300
 Wire Wire Line
 	10150 3250 10150 3300
-Wire Wire Line
-	10150 2850 10150 2950
 $Comp
 L 1N4007 D1
 U 1 1 59ABA7A9
 P 10150 3100
 F 0 "D1" H 10150 3200 50  0000 C CNN
 F 1 "1N4007" H 10150 3000 50  0000 C CNN
-F 2 "user_diodes:D_DO-41_SOD81_P12.70mm_Horizontal" H 10150 3100 50  0001 C CNN
+F 2 "Diodes_THT:D_DO-41_SOD81_P12.70mm_Horizontal" H 10150 3100 50  0001 C CNN
 F 3 "" H 10150 3100 50  0000 C CNN
 	1    10150 3100
 	0    1    1    0   
@@ -148,15 +145,13 @@ Wire Wire Line
 	10150 4400 10250 4400
 Wire Wire Line
 	10150 4350 10150 4400
-Wire Wire Line
-	10150 3950 10150 4050
 $Comp
 L 1N4007 D2
 U 1 1 59ADD6A4
 P 10150 4200
 F 0 "D2" H 10150 4300 50  0000 C CNN
 F 1 "1N4007" H 10150 4100 50  0000 C CNN
-F 2 "user_diodes:D_DO-41_SOD81_P12.70mm_Horizontal" H 10150 4200 50  0001 C CNN
+F 2 "Diodes_THT:D_DO-41_SOD81_P12.70mm_Horizontal" H 10150 4200 50  0001 C CNN
 F 3 "" H 10150 4200 50  0000 C CNN
 	1    10150 4200
 	0    1    1    0   
@@ -242,15 +237,13 @@ Wire Wire Line
 	10150 5550 10250 5550
 Wire Wire Line
 	10150 5500 10150 5550
-Wire Wire Line
-	10150 5100 10150 5200
 $Comp
 L 1N4007 D3
 U 1 1 59ADDD2E
 P 10150 5350
 F 0 "D3" H 10150 5450 50  0000 C CNN
 F 1 "1N4007" H 10150 5250 50  0000 C CNN
-F 2 "user_diodes:D_DO-41_SOD81_P12.70mm_Horizontal" H 10150 5350 50  0001 C CNN
+F 2 "Diodes_THT:D_DO-41_SOD81_P12.70mm_Horizontal" H 10150 5350 50  0001 C CNN
 F 3 "" H 10150 5350 50  0000 C CNN
 	1    10150 5350
 	0    1    1    0   
@@ -396,23 +389,12 @@ Text Label 9800 1400 0    60   ~ 0
 OUT_2
 Text Label 9800 1600 0    60   ~ 0
 OUT_1
-$Comp
-L Arduino_Nano U5
-U 1 1 59AE7866
-P 6700 4400
-F 0 "U5" H 6700 5200 60  0000 C CNN
-F 1 "Arduino_Nano" H 6700 5300 60  0000 C CNN
-F 2 "arduino:ArduinoNano" H 6700 5200 60  0001 C CNN
-F 3 "" H 6700 5200 60  0001 C CNN
-	1    6700 4400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	6000 4300 5700 4300
+	5700 4300 6200 4300
 Wire Wire Line
-	6000 4400 5700 4400
+	5700 4400 6200 4400
 Wire Wire Line
-	6000 4500 5700 4500
+	5700 4500 6200 4500
 Wire Wire Line
 	8450 4900 8200 4900
 Wire Wire Line
@@ -432,17 +414,17 @@ IN_2
 Text Label 8200 4900 0    60   ~ 0
 IN_3
 Wire Wire Line
-	6000 5100 5700 5100
+	5700 5100 6200 5100
 Wire Wire Line
-	6000 5000 5700 5000
+	5700 5000 6200 5000
 Wire Wire Line
-	6000 4900 5700 4900
+	5700 4900 6200 4900
 Wire Wire Line
-	6000 4800 5700 4800
+	5700 4800 6200 4800
 Wire Wire Line
-	6000 4100 5700 4100
+	5700 4100 6200 4100
 Wire Wire Line
-	7400 5100 7700 5100
+	7200 5100 7700 5100
 Wire Wire Line
 	6000 3300 5700 3300
 Wire Wire Line
@@ -480,7 +462,7 @@ SCN/D9
 Text Label 5700 4800 0    60   ~ 0
 SCN/D9
 Wire Wire Line
-	7400 3800 7700 3800
+	7200 3800 7700 3800
 Text Label 7700 3800 2    60   ~ 0
 D_GND
 Wire Wire Line
@@ -499,24 +481,9 @@ Wire Wire Line
 	6000 3000 5700 3000
 Text Label 5700 3000 0    60   ~ 0
 D_GND
-NoConn ~ 6000 3700
-NoConn ~ 6000 3800
-NoConn ~ 6000 3900
-NoConn ~ 6000 4200
-NoConn ~ 6000 4600
-NoConn ~ 6000 4700
-NoConn ~ 7400 5000
-NoConn ~ 7400 4900
-NoConn ~ 7400 4800
-NoConn ~ 7400 4700
-NoConn ~ 7400 4600
-NoConn ~ 7400 4500
-NoConn ~ 7400 4400
-NoConn ~ 7400 4300
-NoConn ~ 7400 4200
-NoConn ~ 7400 4100
-NoConn ~ 7400 4000
-NoConn ~ 7400 3900
+NoConn ~ 6200 4200
+NoConn ~ 6200 4600
+NoConn ~ 6200 4700
 $Comp
 L nRF24L01 U4
 U 1 1 59AE849D
@@ -540,7 +507,7 @@ F 3 "" H 8075 1300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	6000 4000 5700 4000
+	5700 4000 6200 4000
 Text Label 5700 4000 0    60   ~ 0
 D_GND
 Wire Wire Line
@@ -552,7 +519,7 @@ D_VCC
 Text Label 7600 1400 0    60   ~ 0
 D_GND
 Wire Wire Line
-	7400 3700 7700 3700
+	7200 3700 7700 3700
 Text Label 7700 3700 2    60   ~ 0
 D_VCC
 Wire Wire Line
@@ -619,4 +586,36 @@ Wire Wire Line
 Wire Wire Line
 	6900 1250 6900 1200
 Connection ~ 6900 1200
+$Comp
+L ArduinoNano U5
+U 1 1 59BC9DC0
+P 6700 4000
+F 0 "U5" H 6700 4547 60  0000 C CNN
+F 1 "ArduinoNano" H 6700 4441 60  0000 C CNN
+F 2 "Modules:Arduino_Nano" H 6650 4550 60  0001 C CNN
+F 3 "" H 6650 4550 60  0001 C CNN
+	1    6700 4000
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6200 3700
+NoConn ~ 6200 3800
+NoConn ~ 6200 3900
+NoConn ~ 7200 5000
+NoConn ~ 7200 4900
+NoConn ~ 7200 4800
+NoConn ~ 7200 4700
+NoConn ~ 7200 4600
+NoConn ~ 7200 4500
+NoConn ~ 7200 4400
+NoConn ~ 7200 4300
+NoConn ~ 7200 4200
+NoConn ~ 7200 4100
+NoConn ~ 7200 4000
+NoConn ~ 7200 3900
+Wire Wire Line
+	10150 5100 10150 5200
+Wire Wire Line
+	10150 3950 10150 4050
+Wire Wire Line
+	10150 2850 10150 2950
 $EndSCHEMATC
