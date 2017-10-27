@@ -581,7 +581,7 @@ U 1 1 59BC9DC0
 P 6700 4000
 F 0 "U5" H 6700 4547 60  0000 C CNN
 F 1 "ArduinoNano" H 6700 4441 60  0000 C CNN
-F 2 "Modules:Arduino_Nano" H 6650 4550 60  0001 C CNN
+F 2 "arduino:ArduinoNano" H 6650 4550 60  0001 C CNN
 F 3 "" H 6650 4550 60  0001 C CNN
 	1    6700 4000
 	1    0    0    -1  

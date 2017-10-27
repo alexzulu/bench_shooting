@@ -55,14 +55,9 @@
   (pad 28 thru_hole circle (at -7.62816 12.72448) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask))
   (pad 29 thru_hole circle (at -7.62816 15.26448) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask))
   (pad 30 thru_hole circle (at -7.62816 17.80448) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask))
-  (model ${MY_LIBRARIES}/packages3d/Socket_Strips.3dshapes/Socket_Strip_Straight_1x15_Pitch2.54mm.wrl
-    (at (xyz 0.2952755905511811 0 0))
+  (model ${KIPRJMOD}/mod/packages3d/Nano-Rev3_0.wrl
+    (at (xyz -0.003 0.013 0.1))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 90))
-  )
-  (model ${MY_LIBRARIES}/packages3d/Socket_Strips.3dshapes/Socket_Strip_Straight_1x15_Pitch2.54mm.wrl
-    (at (xyz -0.2952755905511811 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 90))
+    (rotate (xyz 0 0 -90))
   )
 )

@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/alex/git/bench_shooting/datasheets/slave.sch)
-    (date "Пт 27 окт 2017 00:00:44")
+    (date "Пт 27 окт 2017 13:02:58")
     (tool "Eeschema 4.0.7-e2-6376~58~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -161,7 +161,7 @@
       (tstamp 59AEA4A0))
     (comp (ref U5)
       (value ArduinoNano)
-      (footprint Modules:Arduino_Nano)
+      (footprint arduino:ArduinoNano)
       (libsource (lib arduino) (part ArduinoNano))
       (sheetpath (names /) (tstamps /))
       (tstamp 59BC9DC0))
@@ -173,7 +173,6 @@
       (tstamp 59AE55A4)))
   (libparts
     (libpart (lib user_diodes) (part 1N4007)
-      (description "1000V, 1A diode")
       (footprints
         (fp *DO-41*))
       (fields
@@ -240,8 +239,6 @@
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive))))
     (libpart (lib user_transistors) (part IRFU9024N)
-      (description "55V Uds, 11A Id, P-MOSFET with substrate diode, drain connected to mounting plane")
-      (docs https://www.infineon.com/dgdl/irfr9024npbf.pdf?fileId=5546d462533600a401535635f91d2132)
       (fields
         (field (name Reference) Q)
         (field (name Value) IRFU9024N))
@@ -333,22 +330,22 @@
         (pin (num 7) (name MISO) (type input))
         (pin (num 8) (name IRQ) (type input)))))
   (libraries
-    (library (logical device)
-      (uri /usr/share/kicad/library/device.lib))
-    (library (logical conn)
-      (uri /usr/share/kicad/library/conn.lib))
     (library (logical regul)
       (uri /usr/share/kicad/library/regul.lib))
+    (library (logical user_transistors)
+      (uri /home/alex/git/bench_shooting/datasheets/lib/user_transistors.lib))
+    (library (logical device)
+      (uri /usr/share/kicad/library/device.lib))
     (library (logical opto)
       (uri /usr/share/kicad/library/opto.lib))
+    (library (logical conn)
+      (uri /usr/share/kicad/library/conn.lib))
     (library (logical user_diodes)
       (uri /home/alex/git/bench_shooting/datasheets/lib/user_diodes.lib))
-    (library (logical arduino)
-      (uri /home/alex/git/bench_shooting/datasheets/lib/arduino.lib))
     (library (logical nrf)
       (uri /home/alex/git/bench_shooting/datasheets/lib/nrf.lib))
-    (library (logical user_transistors)
-      (uri /home/alex/git/bench_shooting/datasheets/lib/user_transistors.lib)))
+    (library (logical arduino)
+      (uri /home/alex/git/bench_shooting/datasheets/lib/arduino.lib)))
   (nets
     (net (code 1) (name /D_VCC)
       (node (ref C1) (pin 1))
