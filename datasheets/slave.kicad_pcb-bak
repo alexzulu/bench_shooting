@@ -1107,7 +1107,7 @@
       (net 18 /D_GND))
     (pad 4 thru_hole oval (at 7.62 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 9 "Net-(R6-Pad2)"))
-    (model ${KISYS3DMOD}/Housings_DIP.3dshapes/DIP-4_W7.62mm.wrl
+    (model Housings_DIP.3dshapes/DIP-4_W7.62mm.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1195,7 +1195,7 @@
       (net 18 /D_GND))
     (pad 4 thru_hole oval (at 7.62 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 10 "Net-(R7-Pad2)"))
-    (model ${KISYS3DMOD}/Housings_DIP.3dshapes/DIP-4_W7.62mm.wrl
+    (model Housings_DIP.3dshapes/DIP-4_W7.62mm.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
