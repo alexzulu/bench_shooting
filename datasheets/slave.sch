@@ -30,10 +30,10 @@ LIBS:contrib
 LIBS:valves
 LIBS:arduino
 LIBS:nrf
-LIBS:user_transistors
 LIBS:user_diodes
+LIBS:user_transistors
 LIBS:slave-cache
-EELAYER 26 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -333,7 +333,7 @@ P_VCC
 Text Label 9450 3300 0    60   ~ 0
 P_VCC
 $Comp
-L Screw_Terminal_1x02 J1
+L Screw_Terminal_01x02 J1
 U 1 1 59ADE9CB
 P 9200 1300
 F 0 "J1" H 9200 1550 50  0000 C TNN
@@ -341,33 +341,22 @@ F 1 "Screw_Terminal_1x02" V 9050 1300 50  0001 C TNN
 F 2 "w_conn_screw:mors_2p" H 9200 1075 50  0001 C CNN
 F 3 "" H 9175 1300 50  0001 C CNN
 	1    9200 1300
-	-1   0    0    1   
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	9000 1200 8700 1200
 Wire Wire Line
-	9000 1400 8700 1400
+	9000 1300 8700 1300
 Text Label 8700 1200 0    60   ~ 0
 P_VCC
-Text Label 8700 1400 0    60   ~ 0
+Text Label 8700 1300 0    60   ~ 0
 P_GND
-$Comp
-L Screw_Terminal_1x03 J2
-U 1 1 59AE55A4
-P 10300 1400
-F 0 "J2" H 10300 1750 50  0000 C TNN
-F 1 "Screw_Terminal_1x03" V 10150 1400 50  0001 C TNN
-F 2 "w_conn_screw:mors_3p" H 10300 1075 50  0001 C CNN
-F 3 "" H 10275 1500 50  0001 C CNN
-	1    10300 1400
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
-	10100 1200 9700 1200
+	10050 1200 9650 1200
 Wire Wire Line
-	10100 1400 9700 1400
+	10050 1300 9650 1300
 Wire Wire Line
-	10100 1600 9700 1600
+	10050 1400 9650 1400
 Wire Wire Line
 	10150 2900 10550 2900
 Connection ~ 10150 2900
@@ -383,11 +372,11 @@ Text Label 10250 4000 0    60   ~ 0
 OUT_2
 Text Label 10250 2900 0    60   ~ 0
 OUT_1
-Text Label 9800 1200 0    60   ~ 0
+Text Label 9750 1200 0    60   ~ 0
 OUT_3
-Text Label 9800 1400 0    60   ~ 0
+Text Label 9750 1300 0    60   ~ 0
 OUT_2
-Text Label 9800 1600 0    60   ~ 0
+Text Label 9750 1400 0    60   ~ 0
 OUT_1
 Wire Wire Line
 	5700 4300 6200 4300
@@ -496,7 +485,7 @@ F 3 "" H 6400 3900 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Screw_Terminal_1x02 J3
+L Screw_Terminal_01x02 J3
 U 1 1 59AE90CE
 P 8100 1300
 F 0 "J3" H 8100 1550 50  0000 C TNN
@@ -504,7 +493,7 @@ F 1 "Screw_Terminal_1x02" V 7950 1300 50  0001 C TNN
 F 2 "w_conn_screw:mors_2p" H 8100 1075 50  0001 C CNN
 F 3 "" H 8075 1300 50  0001 C CNN
 	1    8100 1300
-	-1   0    0    1   
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	5700 4000 6200 4000
@@ -513,10 +502,10 @@ D_GND
 Wire Wire Line
 	7900 1200 7600 1200
 Wire Wire Line
-	7900 1400 7600 1400
+	7900 1300 7600 1300
 Text Label 7600 1200 0    60   ~ 0
 D_VCC
-Text Label 7600 1400 0    60   ~ 0
+Text Label 7600 1300 0    60   ~ 0
 D_GND
 Wire Wire Line
 	7200 3700 7700 3700
@@ -538,30 +527,30 @@ F 3 "" H 6400 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6000 1200 5700 1200
+	5700 1150 6100 1150
 Wire Wire Line
-	6800 1200 7100 1200
+	6700 1150 7100 1150
 Wire Wire Line
-	5700 1350 6000 1350
+	5700 1300 6100 1300
 Wire Wire Line
 	6400 1550 6400 1850
-Text Label 5700 1200 0    60   ~ 0
+Text Label 5700 1150 0    60   ~ 0
 D_VCC
-Text Label 5700 1350 0    60   ~ 0
+Text Label 5700 1300 0    60   ~ 0
 D_VCC
-Text Label 7100 1200 2    60   ~ 0
+Text Label 7100 1150 2    60   ~ 0
 3V3
 Text Label 6400 1850 1    60   ~ 0
 D_GND
 $Comp
 L CP C2
 U 1 1 59AEA26C
-P 6900 1400
-F 0 "C2" H 6925 1500 50  0000 L CNN
-F 1 "CP" H 6925 1300 50  0000 L CNN
-F 2 "w_capacitors:CP_5x11mm" H 6938 1250 50  0001 C CNN
-F 3 "" H 6900 1400 50  0001 C CNN
-	1    6900 1400
+P 6900 1350
+F 0 "C2" H 6925 1450 50  0000 L CNN
+F 1 "CP" H 6925 1250 50  0000 L CNN
+F 2 "w_capacitors:CP_5x11mm" H 6938 1200 50  0001 C CNN
+F 3 "" H 6900 1350 50  0001 C CNN
+	1    6900 1350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -576,16 +565,16 @@ F 3 "" H 5900 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5900 1450 5900 1350
-Connection ~ 5900 1350
+	5900 1300 5900 1450
+Connection ~ 5900 1300
 Wire Wire Line
 	5900 1750 6900 1750
 Connection ~ 6400 1750
 Wire Wire Line
-	6900 1750 6900 1550
+	6900 1750 6900 1500
 Wire Wire Line
-	6900 1250 6900 1200
-Connection ~ 6900 1200
+	6900 1200 6900 1150
+Connection ~ 6900 1150
 $Comp
 L ArduinoNano U5
 U 1 1 59BC9DC0
@@ -618,4 +607,17 @@ Wire Wire Line
 	10150 3950 10150 4050
 Wire Wire Line
 	10150 2850 10150 2950
+Wire Wire Line
+	6100 1300 6100 1250
+$Comp
+L Screw_Terminal_01x03 J2
+U 1 1 59AE55A4
+P 10250 1300
+F 0 "J2" H 10250 1650 50  0000 C TNN
+F 1 "Screw_Terminal_1x03" V 10100 1300 50  0001 C TNN
+F 2 "w_conn_screw:mors_3p" H 10250 975 50  0001 C CNN
+F 3 "" H 10225 1400 50  0001 C CNN
+	1    10250 1300
+	1    0    0    1   
+$EndComp
 $EndSCHEMATC
