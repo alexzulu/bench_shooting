@@ -423,8 +423,6 @@ Wire Wire Line
 Wire Wire Line
 	7000 3100 7300 3100
 Text Label 5700 5000 0    60   ~ 0
-MISO
-Text Label 5700 5100 0    60   ~ 0
 MOSI
 Text Label 7700 5100 2    60   ~ 0
 SCK
@@ -441,15 +439,15 @@ IRQ
 Text Label 7300 3200 2    60   ~ 0
 MOSI
 Text Label 5700 4900 0    60   ~ 0
-CE/SS
+SCN
 Wire Wire Line
 	6000 3100 5700 3100
 Text Label 5700 3100 0    60   ~ 0
 CE/SS
 Text Label 7300 3100 2    60   ~ 0
-SCN/D9
+SCN
 Text Label 5700 4800 0    60   ~ 0
-SCN/D9
+CE/SS
 Wire Wire Line
 	7200 3800 7700 3800
 Text Label 7700 3800 2    60   ~ 0
@@ -620,4 +618,6 @@ F 3 "" H 10225 1400 50  0001 C CNN
 	1    10250 1300
 	1    0    0    1   
 $EndComp
+Text Label 5700 5100 0    60   ~ 0
+MISO
 $EndSCHEMATC

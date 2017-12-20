@@ -423,9 +423,9 @@ Wire Wire Line
 Wire Wire Line
 	7000 3100 7300 3100
 Text Label 5700 5000 0    60   ~ 0
-MISO
-Text Label 5700 5100 0    60   ~ 0
 MOSI
+Text Label 5700 5100 0    60   ~ 0
+MISO
 Text Label 7700 5100 2    60   ~ 0
 SCK
 Text Label 5700 4100 0    60   ~ 0
@@ -441,15 +441,15 @@ IRQ
 Text Label 7300 3200 2    60   ~ 0
 MOSI
 Text Label 5700 4900 0    60   ~ 0
-CE/SS
+SCN
 Wire Wire Line
 	6000 3100 5700 3100
 Text Label 5700 3100 0    60   ~ 0
 CE/SS
 Text Label 7300 3100 2    60   ~ 0
-SCN/D9
+SCN
 Text Label 5700 4800 0    60   ~ 0
-SCN/D9
+CE/SS
 Wire Wire Line
 	7200 3800 7700 3800
 Text Label 7700 3800 2    60   ~ 0
@@ -581,7 +581,7 @@ U 1 1 59BC9DC0
 P 6700 4000
 F 0 "U5" H 6700 4547 60  0000 C CNN
 F 1 "ArduinoNano" H 6700 4441 60  0000 C CNN
-F 2 "Modules:Arduino_Nano" H 6650 4550 60  0001 C CNN
+F 2 "arduino:ArduinoNano" H 6650 4550 60  0001 C CNN
 F 3 "" H 6650 4550 60  0001 C CNN
 	1    6700 4000
 	1    0    0    -1  
