@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name arduino)(type KiCad)(uri "$(KIPRJMOD)/mod/arduino.pretty")(options "")(descr ""))
+  (lib (name w_capacitors)(type KiCad)(uri "$(KIPRJMOD)/mod/w_capacitors.pretty")(options "")(descr ""))
+  (lib (name nRF24x)(type KiCad)(uri "$(KIPRJMOD)/mod/nRF24x.pretty")(options "")(descr ""))
+  (lib (name w_conn_screw)(type KiCad)(uri "$(KIPRJMOD)/mod/w_conn_screw.pretty")(options "")(descr ""))
+)
