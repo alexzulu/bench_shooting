@@ -29,6 +29,5 @@ void loop() {
   if(work == true){
     order();
   }
-  delay(150);
   work = false;
 }

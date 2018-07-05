@@ -25,7 +25,6 @@ void order_2(){
           if(!digitalRead(machines[jogs[steps]])){
             digitalWrite(machines[jogs[steps]],HIGH);
           }
-//        delay(50);
           currentOffset_1 = millis() - start;
         }
       }
