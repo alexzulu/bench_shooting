@@ -1,4 +1,4 @@
-update=Чт 21 дек 2017 19:06:46
+update=Чт 05 июл 2018 07:28:21
 version=1
 last_client=kicad
 [pcbnew]
@@ -66,3 +66,13 @@ LibName34=lib/nrf
 LibName35=lib/user_diodes
 LibName36=lib/user_transistors
 LibName37=shield_arduino
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
